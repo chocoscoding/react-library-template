@@ -39,8 +39,9 @@ export const Button = ({
   };
 
   return (
-    <button type="button" style={styles} {...props}>
+    <button 
+    type="button" style={styles} {...props}>
       {label}
     </button>
   );
-};
+}; 
