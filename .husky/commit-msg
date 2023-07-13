@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn commitlint --edit 
-yarn commitlint --edit 
-yarn commitlint --edit 
+npx yarn lint --fix
+npx yarn lint
+npx yarn test 
+npx yarn commitlint --edit 
